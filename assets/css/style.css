@@ -1,3 +1,65 @@
-header.header.main {
-    background-color: blue;
+*{font-family: monospace, lucida, sans-serif;}
+*{box-sizing: border-box;}
+.center{text-align: center;}
+
+h1 {
+    display: block;
+    font-size: 5em;
+    
+}
+header {
+    width: 100%;
+    display: block;
+}
+.header-main{width: 100%;}
+
+
+/* NAV CODE BEGINS */
+.top-nav {
+    padding: 10px 0px 10px 0px;
+}
+.nav-ul {
+    list-style-type: none;
+    
+}
+
+.nav-ul li {
+    display: inline;
+    font-size: 20px;
+}
+
+.nav-ul a:link{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.btn {
+    background-color: gray;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* NAV CODE ENDS */
+
+
+/* ARTICLE CODE BEGINS */
+
+.preview p {
+    text-align: justify;
+    max-width: 100%;
+}
+
+/* ARTICLE CODE ENDS */
+
+
+/* Responsive Code Blow */
+
+@media only screen and (min-width: 768px) {
+.preview {margin: auto 20% auto 20%;}
+
+.container {
+    width: 95%;
+    display: block;
 }
